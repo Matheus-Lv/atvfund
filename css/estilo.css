@@ -180,3 +180,29 @@ nav#lateral .active {
 }
 
 /* nav lateral fim */
+
+#cargos td,
+#cargos th {
+  border: 1px solid black;
+  padding: 5px;
+}
+ 
+#cargos {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+ 
+#cargos tr:nth-child(even) {
+  background-color: #ddd;
+}
+ 
+#cargos tr:hover {
+  background-color: #ccc;
+}
+ 
+#cargos th{
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 0;
+}
